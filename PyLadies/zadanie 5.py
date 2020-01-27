@@ -12,7 +12,7 @@ def tnij (string, dl):
         global lista
         lista = [string]
         
-        if len(string) == 0: #tego da się napewno jaość uniknąć w kodzie, ale nie wiem jak :(
+        if len(string) == 0: #tego da się napewno jaość uniknąć w kodzie, ale nie wiem jak :(, ma za zadanie usunąć pustego stringa z końca listy.
             lista.pop()
             
     else:
