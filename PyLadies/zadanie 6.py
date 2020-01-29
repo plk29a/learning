@@ -10,3 +10,7 @@
 #{'sollicitudin': 1, 'elit': 1, 'vel': 1, 'eleifend': 1, 'sodales': 1, 'eros': 1, 'sit': 1, 'nec': 1, 'consectetur': 1, 'pellentesque': 1, 'vitae': 1, 'eget': 1, 'hendrerit': 1, 'dolor': 1, 'turpis': 1, 'euismod': 1, 'integer': 1, 'lorem': 1, 'amet': 1, 'ipsum': 3, 'ut': 1, 'ultricies': 1, 'libero': 1, 'adipiscing': 1, 'volutpat': 1}
 
 print('Liczenie słów')
+tekst = 'Ala ma kota. Kota nie ma Krzyś.'
+
+def licz_slowa(tekst):
+    slownik_slow={} #wiek = {'Marcin': 23, 'Agata': 17, 'Marta': 46}
