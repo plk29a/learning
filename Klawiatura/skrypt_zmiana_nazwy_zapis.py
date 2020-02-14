@@ -54,7 +54,7 @@ while liczenie <= 30:
     print('zapisywanie', liczenie)
     liczenie = liczenie + 1
 
-    #DOROBIÆ WARUNEK BREAK
+    #DOROBIÃ† WARUNEK BREAK
     
     
 
