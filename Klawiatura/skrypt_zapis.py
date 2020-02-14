@@ -1,12 +1,14 @@
 # -*- coding: cp1250 -*-
 
 import time
-import keyboard
+import keyboard.keyboard as keyboard #pierwszy zapis z kropką wskazuje ścieżkę, as inaczej nazywa moduł.
+#from tkinter import Label, Entry, Button - taki zapis może pobrać tylko niektóre funkcje z całej biblioteki.
+
 
 #help(mouse)
 #help(keyboard)
 
-print('ile rekordów?')
+print('ile rekordow?')
 
 nr_rekord = input()
 nr_rekord = int(nr_rekord)
