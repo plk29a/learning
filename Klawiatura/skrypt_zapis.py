@@ -13,7 +13,8 @@ print('ile rekordow?')
 nr_rekord = input()
 nr_rekord = int(nr_rekord)
 
-print('pamiêtaj o zapisaniu pierwszego pliku jako kml w dobrej œcie¿ce, enter uruchomi dalsz¹ procedurê')
+print('Zapisz pierwszy plik jako kml w dobrej scia¿ce')
+print('Enter uruchamia dalszy proces')
 
 keyboard.wait('enter')
 
@@ -28,8 +29,7 @@ print('go')
 
 keyboard.press_and_release('down')
 
-liczenie = 1
-while liczenie < nr_rekord:
+for i in range(1, nr_rekord): #funkcja for nie wymaga czegoœ do liczenia :)
 
     time.sleep(0.3)
     keyboard.press_and_release('ctrl + s')
@@ -38,9 +38,8 @@ while liczenie < nr_rekord:
     time.sleep(0.3)
     keyboard.press_and_release('down')
 
+    print('zapisywanie', i + 1)
 
-    print('zapisywanie', liczenie)
-    liczenie = liczenie + 1
 
 print('done')
 time.sleep(5)
